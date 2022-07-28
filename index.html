@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./style/all.min.css"> -->
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/all.min.css">
+    
+    <title>Wether</title>
+</head>
+
+<body>
+    <div id="mainDiv">
+        <div id="wetherCard">
+
+            <div id="weatherStatusBox">
+                <span id="weatherStatusImage"></span>
+                <span id="weatherStatusTxt"></span>
+            </div>
+
+            <div id="area">
+                <h2 class="h2" id="area_name_holder">
+                   <i class="fas fa-location"></i> <span id="area_name">LOCATION</span> 
+                </h2>
+
+                <p class="p" id="current_date_time"> 
+                    <span class="date_time" id="date">DAY, DATE MONTH, YEAR</span> | <span class="date_time" id="time">HH:MM:SS AM/PM</span> 
+                </p>
+            </div>
+
+            <div id="temperature">
+                <h2 class="h2" id="degree_in_celcius">TEMPERATURE</h2>
+                <p class="p" id="min_and_max">
+                    <span id="minTemp">MIN TEMPERATURE</span> | <span id="maxTemp">MAX TEMPERATURE</span>
+                </p>
+            </div>
+
+            <div id="windInfo">
+                <p id="windSpeed"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./script/script.js"></script>
+    <!-- <script src="./script/block_console.js"></script> -->
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins.ttf);
+}
+
+@font-face {
+    font-family: rubik;
+    src: url(../fonts/Rubik.ttf);
+}
+
+@font-face {
+    font-family: rufina;
+    src: url(../fonts/Rufina.ttf);
+}
+
+@font-face {
+    font-family: nunito;
+    src: url(../fonts/nunito_sans.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: rubik, serif;
+}
+
+#mainDiv {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(107, 152, 252, 1) 5%, rgb(23 84 221) 17%, rgb(21 86 209) 28%, rgb(3 70 175) 42%, rgba(25, 103, 252, 1) 61%, rgba(2, 24, 70, 1) 85%);
+}
+
+#wetherCard {
+    width: 330px;
+    height: 500px;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    border-left: 1px solid rgba(255, 255, 255, 0.25);
+    border-right: 1px solid rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #00000040;
+    backdrop-filter: blur(15px);
+    display: inherit;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+    flex-direction: column;
+}
+
+#weatherStatusBox {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    text-transform: uppercase;
+}
+
+#weatherStatusBox span{
+    color: white;
+    font-size: 2.5rem;
+}
+
+#weatherStatusBox span#weatherStatusImage i{
+    font-size: 130px;
+}
+
+
+#area,
+#temperature {
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+}
+
+
+#area_name{
+    text-transform: uppercase;
+}
+
+h2#area_name_icon {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+#minTemp,
+#date{
+    margin-right: 2%;
+}
+
+#maxTemp,
+#time{
+    margin-left: 2%;
+}
+
+p.p{
+    margin-top: 3%;
+    font-size: 15px;
+}
+
+h2.h2{
+    font-size: 40px;
+}
+
+#windInfo{
+    color: white;
+}
