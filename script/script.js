@@ -50,7 +50,7 @@ let changeWeather = (weatherCondition) => {
 }
 
 
-let weatherAPIKey = '1d04105af4243900cb3471b5c991f083';
+let weatherAPIKey = null; // replace null with your api key here, otherwise it is an error...
 let unit = 'metric';
 let area = 'Kolkata'
 let weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${area}&appid=${weatherAPIKey}&units=${unit}`;
